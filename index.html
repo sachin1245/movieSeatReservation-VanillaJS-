@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Seat Reservation Using Javascript</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+	<div id="seatSelection">
+
+            <h1>Movie Seat Reservation</h1>
+        
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" />
+            <label for="seats">Number of Seats </label>
+            <input type="text" id="seats" placeholder="No of Seats">
+
+            
+            <a href="#" class="button" id="selection">Start Selection</a>
+        </form>
+            
+    </div>
+
+    <div id="screen">Screen This Way</div>
+
+    <!-- this table is used to create Seat Layout -->
+    <table id="table">
+    </table>
+	
+	<table id="seatDescription">
+        <tr>
+            <td id="availableSeat" class="seatD"></td>
+            <td >Available Seat</td>
+            <td id="reservedSeat" class="seatD"></td>
+            <td >Booked Seat</td>
+            <td id="selectedSeat" class="seatD"></td>
+             <td>Selected Seat</td>
+        </tr>
+    </table>
+
+     <a href="#" class="button" id="confirmation">Confirm Selection</a>
+    
+    <!-- this table is used to display booked users data  -->
+    <table id="bookedTickets" class="table table-striped">
+        <tr>
+            <td>Name</td>
+            <td>No Of Seats</td>
+            <td>Selected Seats</td>
+        </tr>
+        
+    </table>
+    
+	<script src="scripts/jQuery.js"></script>
+	<script src="scripts/underscore.js"></script>
+	<script src="scripts/app.js"></script>
+</body>
+</html>

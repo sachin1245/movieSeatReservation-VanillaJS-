@@ -1,0 +1,119 @@
+/*------------------------global styles---------------------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.button {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  width: 150px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 20px;
+}
+/*-----------------------screen------------------------*/
+  
+#screen{
+  width: 60%;
+  margin: 10px 20% ;
+  text-align: center;
+  padding: 1px;
+  height: 20px;
+  background: rgba(0,0,255,0.5);
+  color: white;
+}
+
+/*---------------------------seat selection------------------*/
+
+#seatSelection{
+	text-align: center;
+}
+
+#seatSelection a {
+  margin-left: 45%;
+}
+
+
+/*---------------------------- Seat Layout-------------------------*/
+
+
+#table{
+  margin: 0 auto;
+}
+
+
+#table .seat{
+background:url("../images/seatsAvailable.png") no-repeat scroll 0 0 transparent;
+height:30px;
+width:30px;
+display: inline-block;
+margin: 5px 30px;
+padding: 5px;
+color: rgba(255,255,255,0.8);
+}
+
+
+#table .selectingSeat
+{ 
+background-image:url("../images/seatsSelected.png");        
+}
+
+#table .selectedSeat
+{ 
+background-image:url("../images/seatsReserved.png"); 
+       
+}
+
+
+/*---------------------------- Seat Description-------------------------*/
+
+#seatDescription{
+	margin: 0 auto;
+}
+
+#seatDescription .seatD{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+#availableSeat{
+	background:url('../images/seatsAvailable.png') no-repeat scroll 0 0 transparent;
+  
+}
+
+#reservedSeat{
+	background:url('../images/seatsReserved.png') no-repeat scroll 0 0 transparent;
+}
+
+#selectedSeat{
+	background:url('../images/seatsSelected.png') no-repeat scroll 0 0 transparent;
+}
+
+/*-----------------------confirm selection--------------------*/
+
+#confirmation{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/*-------------------------BookedData Table--------------------------------*/
+
+#bookedTickets{
+  width: 60%;
+  margin: 10px auto;
+}
