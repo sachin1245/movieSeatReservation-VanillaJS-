@@ -88,7 +88,7 @@ $(function(){
         }
     }
 
-    //called when seat selection button is clicked
+    // events executes when user clicks on a seat
     $('.seat').click(function () {
 
         var res = validation();
@@ -125,7 +125,7 @@ $(function(){
        
 
 
-
+    //called when seat selection button is clicked
     $('#selection').click(function(){
 
        
