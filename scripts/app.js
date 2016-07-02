@@ -99,7 +99,7 @@ $(function(){
         }
 
         //fails if all the seats are selected 
-        if(currentUser.count < 1){
+        if(currentUser.count < 1 && !$(this).hasClass(settings.selectingSeatCss)){
             return console.log('You have selected all ' + $('#seats').val() + ' seats');
         }
         //fails if seat is already booked
