@@ -55,12 +55,14 @@ input {
 
 #table .seat{
 background:url("../images/seatsAvailable.png") no-repeat scroll 0 0 transparent;
-height:30px;
-width:30px;
+height:25px;
+width:25px;
 display: inline-block;
 margin: 5px 30px;
 padding: 5px;
 color: rgba(255,255,255,0.8);
+font-size: 9px;
+font-weight: bold;
 }
 
 
